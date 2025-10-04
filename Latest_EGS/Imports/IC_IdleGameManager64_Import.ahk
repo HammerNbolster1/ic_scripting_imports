@@ -95,7 +95,9 @@ this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.targetArea
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.ExpTotal := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Int", [0x50])
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.CoreID := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Int", [0x48])
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.InstanceID := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Int", [0x4c])
-this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.GridSave := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Int", [0x10])
+this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.GridSave := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Array", [0x10])
+this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.GridSave._CollectionValType := "System.Int32"
+this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.GridSave._ArrayDimensions := "2"
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.Buffs := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Dict", [0x20])
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.Buffs._CollectionKeyType := "System.Int32"
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.Buffs._CollectionValType := "System.Int32"
