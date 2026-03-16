@@ -330,6 +330,7 @@ this.game.gameInstances.Screen.uiController.bottomBar.formationSaveMenu.clearBut
 this.game.gameInstances.Screen.uiController.bottomBar.formationSaveMenu.clearButton._y := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.formationSaveMenu.clearButton,"Float", [0x27c])
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel,"Int", [0x3b8])
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.maxLevelUpAllowed := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox,"Int", [0x3dc])
+this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.levelUpAmount := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox,"Int", [0x3d8])
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.levelUpButtonDisplay := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox,"Int", [0x348])
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.levelUpButtonDisplay.lastCostText := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.clickDamageBox.levelUpButtonDisplay,"UTF-16", [0x390])
 this.game.gameInstances.Screen.uiController.notificationManager := New GameObjectStructure(this.game.gameInstances.Screen.uiController,"Int", [0x68])
